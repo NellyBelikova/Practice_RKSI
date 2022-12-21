@@ -20,7 +20,6 @@ class MainActivity : AppCompatActivity() {
             counter++
             val marker = findViewById<EditText>(R.id.marker)
             linear.addView(marker)
-            //if you want to identify the created editTexts, set a tag, like below
             marker.tag = "Marker$counter"
             marker.hint = "Marker$counter"
         }
